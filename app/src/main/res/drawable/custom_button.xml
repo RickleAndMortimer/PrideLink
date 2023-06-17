@@ -3,7 +3,8 @@
         android:drawable="@drawable/right_arrow"
         android:width="30dp"
         android:height="30dp"
-
+        android:gravity="center"
+        android:bottom="12sp"
         android:left="8dp"
         android:right="8dp"
        />
