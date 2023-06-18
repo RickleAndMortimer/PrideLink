@@ -16,43 +16,50 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:baselineAligned="false"
-            android:gravity="center"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imageView"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/happy" />
+                android:baselineAligned="false"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/happy" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="1"
+                    android:text="Personalized Plan"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="4dp"
-                android:layout_weight="1"
-                android:text="Personalized Plan"
-                android:textColor="#000000"
-                android:textStyle="bold" />
+                android:layout_marginLeft="16px"
+                android:layout_marginTop="16px"
+                android:text="Create and edit your own plan for coming out" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:src="@drawable/dotted_line" />
 
         </LinearLayout>
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16px"
-            android:layout_marginTop="16px"
-            android:text="Create and edit your own plan for coming out" />
-
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="match_parent"
-            android:layout_height="51dp"
-            android:src="@drawable/dotted_line" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -112,7 +119,7 @@
             android:src="@drawable/plus" />
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/continueBtn"
             android:layout_width="358dp"
             android:layout_height="60dp"
             android:layout_marginTop="8dp"
