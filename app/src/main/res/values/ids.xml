@@ -2,4 +2,5 @@
 <resources>
     <item name="loginBtn" type="id" />
     <item name="continueBtn" type="id" />
+    <item name="text1" type="id" />
 </resources>
