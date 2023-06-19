@@ -5,6 +5,7 @@
         android:title="Home"
         android:id="@+id/home"
         android:icon="@drawable/home"
+
         />
     <item android:title="Studio"
           android:id="@+id/studio"

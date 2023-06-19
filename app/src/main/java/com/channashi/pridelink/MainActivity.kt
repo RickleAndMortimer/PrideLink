@@ -12,7 +12,7 @@ class MainActivity : ComponentActivity() {
 
         var loginBtn = findViewById<Button>(R.id.loginBtn);
         loginBtn.setOnClickListener{
-            val intent = Intent(this, PlanActivity::class.java)
+            val intent = Intent(this, MainActivity2::class.java)
             startActivity(intent)
         }
 

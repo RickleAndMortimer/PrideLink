@@ -49,49 +49,100 @@
             android:src="@drawable/dotted_line" />
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp"
+            >
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/bell_border"
-                    android:drawableTop="@drawable/bell"
-                    android:drawablePadding="4dp"
+                    android:drawableBottom ="@drawable/custom_bell_button"
                     android:scaleType="fitCenter"
                     android:gravity="center"
+                    android:paddingBottom="12dp"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="SMS"
-                    android:layout_marginLeft="25sp"
+                    android:layout_marginLeft="28sp"
+                    android:layout_marginTop="4sp"
                     />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
+                android:orientation="vertical"
+                android:layout_marginLeft="10sp">
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10sp"
                     android:background="@drawable/msg_border"
-                    android:drawableTop="@drawable/message"
-
+                    android:drawableBottom ="@drawable/custom_msg_button"
+                    android:scaleType="fitCenter"
+                    android:gravity="center"
+                    android:paddingBottom="12dp"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Message"
-                    android:layout_marginLeft="30sp"
+                    android:layout_marginLeft="16sp"
+                    android:layout_marginTop="4sp"
                     />
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10sp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/map_border"
+                    android:drawableBottom ="@drawable/custom_map_button"
+                    android:scaleType="fitCenter"
+                    android:gravity="center"
+                    android:paddingBottom="12dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Map"
+                    android:layout_marginLeft="28sp"
+                    android:layout_marginTop="4sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10sp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/add_chat_border"
+                    android:drawableBottom ="@drawable/custom_add_chat_button"
+                    android:scaleType="fitCenter"
+                    android:gravity="center"
+                    android:paddingBottom="12dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Support"
+                    android:layout_marginLeft="18sp"
+                    android:layout_marginTop="4sp"
+                    />
+            </LinearLayout>
+
 
         </LinearLayout>
 
